@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
-	var body = "hello world. i've got expressjs installed.";
+	var body = "Hello world. I've got Express installed.";
 	res.setHeader('Content-Type', 'text/plain');
 	res.setHeader('Content-Length', body.length);
 	res.end(body);
