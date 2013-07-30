@@ -1,0 +1,19 @@
+html
+	head
+		title Retro app
+	body
+		h1 New retro
+		form(action="/retro", method="post")
+			label(for="title") Title
+			br
+			input(type="text", name="title")
+			br
+			label(for="team") Team
+			br
+			input(type="text", name="team")
+			br
+			label(for="description") Description
+			br
+			textarea(name="description")
+			br
+			input(type="submit", value="Submit")
